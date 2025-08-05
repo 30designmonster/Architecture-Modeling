@@ -24,7 +24,7 @@ private:
     int num_accesses;
 
 public:
-    // Constructor
+  
     MemoryAccessModel(int accesses) : num_accesses(accesses) {
         srand(time(0)); // Seed RNG
     }
